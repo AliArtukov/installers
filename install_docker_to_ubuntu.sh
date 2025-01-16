@@ -19,7 +19,7 @@ apt-cache policy docker-ce
 sudo apt install docker-ce
 
 # Check that it’s running:
-sudo systemctl status docker
+#sudo systemctl status docker
 
 # To check whether you can access and download images from Docker Hub, type:
 docker run hello-world
